@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
-# docker-wormhole
+# docker-iperfclient
 #
-# Base Ubuntu + SoftEther VPN + Wormhole
+# Base Ubuntu + SoftEther VPN + Wormhole + iPerf
 # (https://wormhole.network).
 #
 # Authors: Pedro Perez
