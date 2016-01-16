@@ -4,6 +4,10 @@ Docker image that connects to Wormhole's overlay network and starts and iPerf cl
 ## Building docker-iperfclient
     
     git clone https://github.com/pjperez/docker-iperfclient
+    cd docker-iperfclient
+    
+Download your config (.vpn) and linuxconfig files from your dashboard at [Wormhole Network](https://wormhole.network) and use them to replace the placeholders before the next step.
+
     sudo docker build -t wormhole/docker-iperfclient .
 
 ## Running docker-iperfclient
